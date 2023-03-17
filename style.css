@@ -1,0 +1,64 @@
+body {
+  background-image: radial-gradient(circle at 1px 1px, rgb(70, 70, 70) 1px, transparent 0);
+  background-size: 25px 25px;
+  padding: 0;
+  margin: 0;
+}
+.container{
+  width: 80%;
+  margin: 5% auto;
+}
+header{
+  background-color: lightgray;
+  height: 2.5rem;
+  color: violet;
+  padding-top: 1.25rem;
+  padding-left: 1.25rem;
+  font-size: 1.5rem;
+  
+}
+.heading{
+  margin: 1rem auto;
+  text-align: center;
+  font-size: 3rem;
+  width: 70%;
+}
+
+.cards{
+  height: 20rem;
+  background-color: gray;
+  padding: 3rem;
+/*   overflow: scroll; */
+}
+.card{
+  background-color: orange;
+  width: 9rem;
+  height:9rem;
+  margin: 1rem;
+  border-radius:1.5rem;
+  display: inline-block;
+}
+.btn{
+  background-color: dodgerblue;
+  width: 60%;
+  height: 2.5rem;
+  font-size: 1rem;
+  border: none;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+footer{
+  background-color: black;
+  margin-top: 1rem;
+  height: 2.5rem;
+}
+footer p{
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 1rem;
+}
